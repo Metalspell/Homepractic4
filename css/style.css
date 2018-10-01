@@ -1,0 +1,41 @@
+html,
+body,
+.view {
+	height: 100%;
+}
+
+.view {
+	width: 100%;
+	min-height: 700px;
+}
+
+.card {
+	opacity: 0.9;
+}
+
+.navbar {
+	background-color: rgba(0,0,0,0.4);
+}
+
+.top-nav-collapse {
+	background-color: #1c2331;
+}
+
+.page-footer {
+	background-color: #1c2331;
+}
+.rounded {
+	width: 100%;
+}
+
+@media (max-width: 740px) {
+	.full-page-intro {
+		height: 1000px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar {
+		background-color: #1c2331;
+	}
+}
